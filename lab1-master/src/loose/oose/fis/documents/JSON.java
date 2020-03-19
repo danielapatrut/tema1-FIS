@@ -15,7 +15,7 @@ public class JSON extends Document {
         for (String cuvant : continut) {
             if (!cuvant.contains(":")) {
                 res[pos] = cuvant;
-                pos=pos+6;
+                pos = pos + 3;
             }
         }
 
